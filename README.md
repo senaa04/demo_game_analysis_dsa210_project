@@ -14,9 +14,7 @@ Game Review Data: I plan to use Metacritic and Steam games dataset which contain
 Sales Data: VGChartz/Kaggle. This dataset provides global sales of games. 
 General Game Data and Demo Data: Steam also provides data about demos and game attributes.
 
-For Steam Store Games dataset: https://www.kaggle.com/datasets/nikdavis/steam-store-games
-
-I might also use an alternative dataset if I need more attributes: https://www.kaggle.com/datasets/fronkongames/steam-games-dataset/data
+For Steam Store Games dataset: https://www.kaggle.com/datasets/mistercerberus/steam-games-dataset
 
 For Metacritic Review Dataset: https://www.kaggle.com/datasets/henrylin03/metacritic-games-user-reviews-and-metascores/data
 
@@ -34,11 +32,11 @@ Then, I will merge the datasets based on if the game has a demo or not, the sale
 Later, I will explore the effect that demos have on the overall positive/negative experience of the player and the sales of the full games.
 
 ## 1.	Data Cleaning and Merging Plan
-•	Clean the titles
+•	Clean the games and sales datasets and create common titles.
 
-•	Find demos and matching game
+•	Find demos and matching game.
 
-•	Merge Steam data with Metacritic and VGChartz data
+•	Merge Steam data with Metacritic and VGChartz data.
 
 ## 2.	Exploratory Data Analysis (EDA)
 •	Distribution of global sales – Histogram of global sales across all games in the dataset.
