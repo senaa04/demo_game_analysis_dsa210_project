@@ -62,3 +62,45 @@ Ha: Demo presence increases full game scores.
 H0: Demo popularity has no effect on full game sales.
 
 Ha: Demo popularity increases the full game sales.
+
+# MACHINE LEARNING MODEL #
+Since the hypothesis testing did not provide strong evidence for the proposed relationship, I used machine learning to examine the patterns in the data.
+
+## 1. ML Question ##
+
+The developed ML model follows the following question:
+
+* What characteristics are associated with games that offer demos?
+
+In other words, the model predicts whether games with demos can be distinguished from games without demos.
+
+## 2. Development ##
+
+### Data Preparation: ### 
+The model uses **supervised classification** rather than regression. 
+
+**Target:** The demo presence
+
+**Features:** Metacritic scores and global sales
+
+Row containing missing values in the features are removed to make sure they are compatible with the ml model.
+
+### Models: ###
+
+* **Decision Tree Classifier**
+
+* **K-Nearest Neighbors (KNN) Classifier**
+
+## 3. Limitations and Future Improvements ##
+
+### Limitations: ###
+
+* The dataset is quite unbalanced becasue the games without demos outnumber the games with demos. The imbalance should be considered when reading model performance.
+
+* The analysis is reduced because of the limited numbers of features available.
+
+### Future Work: ###
+
+* Expending the dataset with additional features such as player engagement metrics, price, genre etc.
+
+* Using a larger and more balanced dataset may improve the model performance and may lead to more dependable findings related to demo availability.
